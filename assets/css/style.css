@@ -1,15 +1,17 @@
-.navbar {
-    padding: 0px;
+a {
+    color: coral;
 }
 
-.navbar-brand  {
-    padding: 15px;
-    margin: 0px;
+.btn {
+    background-color: coral;
 }
-
-.row {
-    padding: 0px;
+.bg-brown{
+    background-color: peru;
 }
-.myName {
-    padding: 0px;
+.card {
+    margin: 20px
+}
+body {
+    background-image: url(../images/floor-tile.png);
+    background-repeat: repeat;
 }

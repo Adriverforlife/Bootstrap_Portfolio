@@ -18,19 +18,25 @@
 
 
     <!--Body-->
-
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar navbar-light justify-content-between" style="background-color:beige">
+        <div class="row justify-content-between border-bottom" style="margin:0px 0px 20px;background-color:beige">
 
-            <div class="navbar-brand h1" style="background-color:coral">Michael Eguina</div>
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+            <div class="col-md-4" style="background-color:coral">
+                <div class="row justify-content-center">
+                    <h1>Michael Eguina</h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row justify-content-med-end justify-content-center" style="margin: 10px">
+                    <ul class="list-inline">
+                        <a li class="list-inline-item" href="index.html">About </a>
+                        <a li class="list-inline-item" href="portfolio.html">Portfolio</a>
+                        <a li class="list-inline-item" href="contact.html">Contact</a>
+                    </ul>
+                </div>
             </div>
 
-
-        </nav>
+        </div>
         <div class="col-12">
             <div class="jumbotron">
                 <h1 class="display-4" style="color: coral">About Me</h1>
@@ -59,6 +65,9 @@
 
 
     </div>
+    <nav class="navbar fixed-bottom navbar-light bg-brown justify-content-center">
+            <a class="navbar-brand" href="#">@copyright</a>
+          </nav>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
